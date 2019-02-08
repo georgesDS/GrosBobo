@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arvo, Arial, sans-serif;
+	background-color: #ededed;
+}
+
+header {
+	text-align: center;
+	padding: 20px;
+}
+
+#disque1, #disque2, #disque3,
+#disque4,#disque5,#disque6 {
+	position: relative;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    background: black;
+    opacity: 0.6;
+}
+
+#disque1 {
+	top: -420px;
+	left: -5px;
+}
+
+#disque2 {
+	top: -385px;
+	left: 100px;
+}
+
+#disque3 {
+	top: -385px;
+	left: -9px;
+}
+
+#disque4 {
+	top: -410px;
+	left: 80px;
+}
+
+#disque5 {
+	top: -365px;
+	left: 23px;
+}
+
+#disque6 {
+	top: -325px;
+	left: 65px;
+}
+
+h1 {
+	font-size: 38px;
+	font-weight: 500;
+}
+
+p {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 15px 10px;
+}
+
+#corps {
+	max-height: 498px;
+	max-width: 139px;
+  	margin: auto;
+}
+
+article {
+	display: none;
+}
+
+
+/*Pour écrans > mobile*/
+@media screen and (min-width: 500px){
+
+section {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+p {
+	width: 160px;
+	line-height: 1.4;
+}
+
+#corps {
+	margin: 0;
+}
+
+aside {
+	padding-left: 20px;
+}
+
+}
+/* fin écrans > mobile */
